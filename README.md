@@ -1,7 +1,23 @@
+![Tech](https://img.shields.io/badge/tech-DCDN-orange)
 
-# dCDN - Decentralized Content Delivery Network
 
-A modern, decentralized content delivery network built on the Internet Computer Protocol (ICP) using React frontend and Rust backend.
+# DCDN - Decentralized Content Delivery Network
+
+## 🌐 Overview
+This project implements a **Decentralized Content Delivery Network (dCDN)** that distributes content across decentralized nodes rather than relying on a single centralized server. The goal is to improve **availability, scalability, fault tolerance, and resilience** while exploring modern decentralized system design.
+
+The project demonstrates a **full-stack decentralized architecture**, combining a modern web frontend with high-performance backend logic.
+
+---
+
+## 🎯 Project Objectives
+- Design a decentralized alternative to traditional CDNs  
+- Improve content availability through distributed nodes  
+- Reduce dependency on centralized infrastructure  
+- Explore decentralization using modern backend and frontend technologies  
+- Build an end-to-end deployable system  
+
+---
 
 ## 🚀 Features
 
@@ -11,6 +27,8 @@ A modern, decentralized content delivery network built on the Internet Computer 
 - **Real-time Analytics**: Monitor network performance and usage statistics
 - **Peer-to-Peer Network**: Direct node-to-node content distribution
 - **Censorship Resistant**: Decentralized architecture prevents single points of failure
+
+---
 
 ## 📋 Prerequisites
 
@@ -79,7 +97,9 @@ The script will:
 - Start a local ICP replica
 - Deploy the Rust backend canister
 - Build and deploy the React frontend
-- Provide you with local URLs to access your dCDN
+- Provide you with local URLs to access your DCDN
+
+---
 
 ## 🌍 Deploy to Mainnet
 
@@ -95,6 +115,8 @@ The script will:
    # Deploy to mainnet
    ./deploy-mainnet.sh
    ```
+
+---
 
 ## 📁 Project Structure
 
@@ -116,6 +138,34 @@ dcdn/
 ├── deploy-mainnet.sh         # Mainnet deployment script
 └── README.md                 # This file
 ```
+---
+### 🔍 Explanation
+- **Frontend (TypeScript / Next.js):**  
+  User interface, routing, request handling, and visualization.
+- **API / Gateway Layer:**  
+  Routes client requests to appropriate decentralized nodes.
+- **Backend (Rust):**  
+  Handles core logic, performance-critical services, and decentralized coordination.
+- **Decentralized Nodes / Storage:**  
+  Content is stored and retrieved from distributed locations.
+
+---
+## 🧩 Technology Stack
+
+### Frontend
+- TypeScript
+- React / Next.js
+- CSS
+
+### Backend
+- Rust (for performance-critical services)
+- Shell scripts for build and automation
+
+### Other
+- Configuration & deployment scripts
+- Container / environment configuration
+
+---
 
 ## 🔧 Usage
 
@@ -135,12 +185,16 @@ dcdn/
 2. Monitor peer nodes in the "Peer Nodes" tab
 3. View real-time performance metrics
 
+---
+
 ## 🔒 Security Features
 
 - **Cryptographic Hashing**: All files are identified by secure hashes
 - **Access Control**: Private files are only accessible by owners
 - **Decentralized Verification**: Network consensus for file integrity
 - **Immutable Storage**: Files cannot be modified once uploaded
+
+---
 
 ## 🌐 Network Architecture
 
@@ -150,6 +204,8 @@ The dCDN operates on a peer-to-peer network where:
 - Automatic failover ensures high availability
 - Load balancing distributes traffic efficiently
 
+---
+
 ## 📊 Monitoring & Analytics
 
 Track important metrics:
@@ -157,6 +213,8 @@ Track important metrics:
 - **Node Performance**: Track uptime and response times
 - **Storage Utilization**: View network-wide storage usage
 - **User Activity**: Analyze usage patterns
+
+---
 
 ## 🚨 Troubleshooting
 
@@ -187,6 +245,8 @@ Track important metrics:
    - Visit https://faucet.dfinity.org/ for test cycles
    - Check balance: `dfx wallet --network ic balance`
 
+---
+
 ## 📚 Additional Resources
 
 - [Internet Computer Documentation](https://internetcomputer.org/docs/)
@@ -194,10 +254,32 @@ Track important metrics:
 - [Rust Canister Development](https://internetcomputer.org/docs/current/developer-docs/backend/rust/)
 - [React on ICP](https://internetcomputer.org/docs/current/developer-docs/frontend/)
 
+---
+
+## 🤝 Development Notes
+- Initial project scaffolding was **AI-assisted** and later customized and extended.
+- Core architectural design, integration, configuration, and customization were done manually.
+- Focus was on **learning decentralized system design**, not just building a UI.
+  
+---
+## 📊 About the Language Distribution
+GitHub shows **TypeScript as the dominant language (~92%)** because:
+- The project contains a full **Next.js frontend**, which naturally has many `.ts` and `.tsx` files.
+- Rust is used for **core backend logic**, which is smaller in file count but critical in functionality.
+
+This distribution reflects **project structure**, not importance or ownership.
+---
+
 ## 🤝 Contributing
 
 This is an open-source project. Contributions are welcome!
 
+---
+##👩‍💻 Author
+
+Abhineet Kaur
+Computer Science | AI/ML & Systems Enthusiast
+---
 ## 📄 License
 
 This project is licensed under the MIT License.
