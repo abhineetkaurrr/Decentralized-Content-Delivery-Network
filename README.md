@@ -1,4 +1,5 @@
-![Tech](https://img.shields.io/badge/tech-DCDN-orange)
+![Tech](https://img.shields.io/badge/tech-DCDN-red)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 # DCDN - Decentralized Content Delivery Network
