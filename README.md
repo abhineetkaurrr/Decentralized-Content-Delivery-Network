@@ -257,17 +257,20 @@ Track important metrics:
 ---
 
 ## 🤝 Development Notes
+
 - Initial project scaffolding was **AI-assisted** and later customized and extended.
 - Core architectural design, integration, configuration, and customization were done manually.
 - Focus was on **learning decentralized system design**, not just building a UI.
   
 ---
+
 ## 📊 About the Language Distribution
-GitHub shows **TypeScript as the dominant language (~92%)** because:
+
+It shows **TypeScript as the dominant language (~92%)** because:
 - The project contains a full **Next.js frontend**, which naturally has many `.ts` and `.tsx` files.
 - Rust is used for **core backend logic**, which is smaller in file count but critical in functionality.
+- This distribution reflects **project structure**, not importance or ownership.
 
-This distribution reflects **project structure**, not importance or ownership.
 ---
 
 ## 🤝 Contributing
@@ -275,11 +278,14 @@ This distribution reflects **project structure**, not importance or ownership.
 This is an open-source project. Contributions are welcome!
 
 ---
+
 ##👩‍💻 Author
 
 Abhineet Kaur
 Computer Science | AI/ML & Systems Enthusiast
+
 ---
+
 ## 📄 License
 
 This project is licensed under the MIT License.
