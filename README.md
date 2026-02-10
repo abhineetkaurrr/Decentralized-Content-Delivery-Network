@@ -282,6 +282,7 @@ This is an open-source project. Contributions are welcome!
 ## 👩‍💻 Author
 
 Abhineet Kaur
+
 Computer Science | AI/ML & Systems Enthusiast
 
 ---
